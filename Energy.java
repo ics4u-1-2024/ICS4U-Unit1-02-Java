@@ -25,7 +25,9 @@ final class Energy {
     throw new IllegalStateException("Cannot be instantiated");
   }
 
-    // Class constant 
+    /**
+     * Speed of light in a vacuum (m/s).
+     */
     public static final double SPEED_OF_LIGHT = 2.998 * (Math.pow(10, 8));
 
   /**
